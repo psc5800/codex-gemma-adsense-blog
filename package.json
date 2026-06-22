@@ -1,0 +1,17 @@
+{
+  "name": "codex-gemma-adsense-blog",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "GitHub Pages AdSense blog kit using Codex OAuth, local Ollama Gemma 4, and optional Hermes.",
+  "scripts": {
+    "serve": "node src/server.mjs",
+    "status": "node src/status.mjs",
+    "generate": "node src/generate-post.mjs",
+    "build": "node src/build-site.mjs",
+    "approve": "node src/approval-audit.mjs"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

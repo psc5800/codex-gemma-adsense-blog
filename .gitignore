@@ -1,0 +1,8 @@
+.env
+node_modules/
+site/
+logs/*.log
+logs/*.pid
+.ollama/models/
+.DS_Store
+Thumbs.db

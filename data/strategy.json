@@ -1,0 +1,24 @@
+{
+  "defaultRoute": [
+    {
+      "work": "Keyword clustering, drafts, outlines, metadata",
+      "tool": "Ollama Gemma 4",
+      "reason": "Runs locally from F: storage and avoids per-token API cost."
+    },
+    {
+      "work": "Repository edits, build fixes, release review, complex debugging",
+      "tool": "Codex CLI with ChatGPT OAuth",
+      "reason": "Already authenticated locally; no API key is stored in the project."
+    },
+    {
+      "work": "Optional assistant fallback, provider switching, remote gateway",
+      "tool": "Hermes Agent",
+      "reason": "Already installed with Nous Portal and OpenAI Codex OAuth detected."
+    }
+  ],
+  "avoid": [
+    "Do not put Codex OAuth credentials into GitHub Actions.",
+    "Do not enable ads until AdSense approval is granted.",
+    "Do not publish unreviewed generated articles in sensitive YMYL topics."
+  ]
+}
